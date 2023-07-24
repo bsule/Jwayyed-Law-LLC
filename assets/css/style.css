@@ -1,4 +1,12 @@
 
-h1{
-    color: red;
+#hero{
+    background: url("../img/115638.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
 }
+
+*{
+    color: white;
+}
+

@@ -12,20 +12,17 @@
     min-height: 100vh;
     background-position: center;
     background-size: cover;
-}
-
-*{
     color: white;
 }
 
 #services{
+    background-color: white;
     min-height: 100vh;
     background-position: center;
     background-size: cover;
-    background-color: white;
 }
 
-.maindisplay{
+.main-display{
     margin: 0;
     position: absolute;
     top: 50%;
@@ -35,4 +32,27 @@
 
 #title{
     font-weight: bold;
+}
+
+#about-me{
+    background-color: #052c65;
+    min-height: 60vh;
+    color: black;
+}
+
+.heading-about{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#about-me-header{
+    padding-bottom: 20px;
+}
+
+#border-line{
+    border-top: solid white 1px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
 }

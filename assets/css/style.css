@@ -8,44 +8,41 @@
     font-family: Playfair-Display;
 }
 
+/* navbar */
 .navbar{
     position:absolute;
     width: 100%;
     padding-top: 16px;
     padding-bottom: 16px;
-    z-index: 9999;
 }
 
 .navbar-nav{
-    text-transform:capitalize;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 20px;
+    margin-right: 60px;
 }
 
 .social-links a{
+    font-size: 20px;
     width: 36px;
     height: 36px;
-    color:var(--white);
-    display: inline-flex;
+    color: black;
     align-items: center;
     justify-content: center;
     border-radius: 100px;
-    font-size: 18px;
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
- .linkedin:hover{
-    background-color:white;
-}
-.Tiktok:hover{
-    background-color: white;
+.linkedin:hover, .tiktok:hover{
+    color: white;
 }
 
+/* main page */
 #hero{
     background: url("../img/temp_pic.jpg");
     min-height: 100vh;
     background-size: cover;
     color: white;
+    width: 100%;
 }
 
 .main-display{

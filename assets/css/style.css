@@ -45,32 +45,6 @@
     color: white;
 }
 
-#services{
-    background-color: white;
-    min-height: 100vh;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-}
-
-.Title-main{
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.title {
-    padding-bottom: 20px;
-}
-
-#border-line{
-    border-top: solid black 1px;
-    width: 100px;
-    position: absolute;
-    bottom: 0;
-}
-
-
 .main-display{
     margin: 0;
     position: absolute;
@@ -79,10 +53,7 @@
     transform: translateY(-50%);
 }
 
-#title{
-    font-weight: bold;
-}
-
+/* about me page */
 #about-me{
     background-color: #fff;
     min-height: 60vh;
@@ -101,7 +72,7 @@
     font-weight: bold;
 }
 
-#border-line{
+#border-line-about{
     border-top: solid dimgrey 1px;
     width: 100px;
     position: absolute;
@@ -112,4 +83,29 @@
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+/* services page */
+#services{
+    background-color: white;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.service-title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#service-h1{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#border-line-service{
+    border-top: solid dimgrey 1px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
 }

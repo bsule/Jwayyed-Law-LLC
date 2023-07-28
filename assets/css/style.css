@@ -42,7 +42,7 @@
 
 /* main page */
 #hero{
-    background: url("../img/temp_pic.jpg");
+    background: url("../img/temp_pic.jpg") fixed;
     min-height: 90vh;
     background-size: cover;
     color: white;
@@ -112,4 +112,10 @@
     width: 100px;
     position: absolute;
     bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+    #hero{
+        min-height: 100vh;
+    }
 }

@@ -50,7 +50,26 @@
     min-height: 100vh;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
+
+.Title-main{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+#border-line{
+    border-top: solid black 1px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
 
 .main-display{
     margin: 0;

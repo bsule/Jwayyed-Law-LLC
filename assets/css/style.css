@@ -8,12 +8,17 @@
     font-family: Playfair-Display;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* navbar */
 .navbar{
     width: 100%;
     padding-top: 16px;
     padding-bottom: 16px;
     background-color: black;
+    min-height: 10vh;
 }
 
 .navbar-nav{

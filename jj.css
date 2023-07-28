@@ -1,0 +1,163 @@
+
+
+
+body{
+font-family:sans-serif;
+color: var(--body);
+line-height:1.8;
+
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 800;
+}
+a{
+    color:var(--body);
+    text-decoration: none;
+    transition: all 0.45 ease;
+    font-weight: 700;
+}
+
+a:hover{
+    color:var(--dark)
+}
+
+
+
+.navbar-brand{
+    font-size: 28px;
+    text-transform: uppercase;
+
+
+}
+.navbar .navbar-nav .nav-link{
+
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.social-links a{
+    width: 36px;
+    height: 36px;
+    background-color:var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+ul{
+    
+}
+
+
+@media(max-width: 992px){
+    .navbar{
+        background-color: var(--dark);
+    }
+}
+
+
+
+
+#hero{
+    background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/black-paper-background.jpg?resize=1250,1120");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+} 
+#hero p
+{
+    color: white;
+}
+#hero h1{
+    font-weight: 900;
+    color: white;
+
+}
+#hero p{
+    font-size: 18;
+    max-width: 450px;
+}
+.btn{
+    padding: 20px 44px;
+    border-width: 2px;
+    border-radius: 100px;
+    font-size: 14px; 
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+}
+.intro{
+    margin-bottom: 60px;
+}
+.intro .hr-line{
+    margin-top: 100px;
+    width: 90px;
+    height: 4px;
+    background-color: black;
+
+}
+.intro h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.display-4{
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.serviceP{
+    text-align: center;
+}
+.Services{
+    margin-bottom: 400px;
+}
+.Brand{
+    display: flex;
+  flex-direction: column;
+  background: linear-gradient(transparent);
+  border-radius: 30px;
+  box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.2);
+  margin: 0 8px 8px 8px;
+  transition: 0.3s;
+  box-sizing: border-box;
+  padding: 10px;
+  max-width:511px;
+  margin-right: 100;
+
+}
+.BI{
+    text-align: center;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    
+}
+#box{
+    margin-right: 100px;
+    margin-bottom: 150px;
+    font-size: 500%;
+}
+.text{
+    font-size: 14px;
+    font-weight: 70;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100;
+    margin-left: 100px;
+   
+}
+
+
+#tasks{
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/620/881/desktop-wallpaper-nice-backgrounds-%C2%B7%E2%91%A0-nice-background-pic.jpg");
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+} 

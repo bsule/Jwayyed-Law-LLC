@@ -1,3 +1,11 @@
+.navbar{
+    position:absolute;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    z-index: 9999;
+   
+}
 
 #hero{
     background: url("../img/115638.jpg");

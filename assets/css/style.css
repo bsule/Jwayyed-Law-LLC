@@ -21,11 +21,15 @@
     margin-right: 60px;
 }
 
+.nav-link{
+    color: white;
+}
+
 .social-links a{
     font-size: 20px;
     width: 25px;
     height: 25px;
-    color: grey;
+    color: white;
     align-items: center;
     justify-content: center;
     border-radius: 100px;
@@ -33,7 +37,7 @@
 }
 
 .linkedin:hover, .tiktok:hover{
-    color: white;
+    color: #999999;
 }
 
 /* main page */

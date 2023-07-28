@@ -8,21 +8,21 @@
 }
 
 #hero{
-    background: url("../img/115638.jpg");
+    background: url("../img/temp_pic.jpg");
     min-height: 100vh;
     background-position: center;
     background-size: cover;
 }
 
 *{
-    color: black;
+    color: white;
 }
 
 #services{
     min-height: 100vh;
     background-position: center;
     background-size: cover;
-    background-color: black;
+    background-color: white;
 }
 
 .maindisplay{

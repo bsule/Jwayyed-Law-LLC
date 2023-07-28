@@ -1,4 +1,13 @@
 
+@font-face {
+    font-family: Playfair-Display;
+    src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+*{
+    font-family: Playfair-Display;
+}
+
 .navbar{
     position:absolute;
     width: 100%;
@@ -11,7 +20,6 @@
     text-transform:capitalize;
     font-size: 24px;
     font-weight: 500;
-   
 }
 
 .social-links a{
@@ -58,7 +66,7 @@
 }
 
 #about-me{
-    background-color: #052c65;
+    background-color: #fff;
     min-height: 60vh;
     color: black;
 }
@@ -70,11 +78,13 @@
 }
 
 #about-me-header{
+    padding-top: 2vh;
     padding-bottom: 20px;
+    font-weight: bold;
 }
 
 #border-line{
-    border-top: solid white 1px;
+    border-top: solid dimgrey 1px;
     width: 100px;
     position: absolute;
     bottom: 0;

@@ -41,7 +41,6 @@
 #hero{
     background: url("../img/temp_pic.jpg");
     min-height: 100vh;
-    background-position: center;
     background-size: cover;
     color: white;
 }
@@ -88,4 +87,10 @@
     width: 100px;
     position: absolute;
     bottom: 0;
+}
+
+.about-page-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }

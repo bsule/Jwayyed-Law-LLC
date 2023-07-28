@@ -7,6 +7,29 @@
     z-index: 9999;
 }
 
+.navbar-nav{
+    text-transform:capitalize;
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+
+.social-links a{
+    width: 36px;
+    height: 36px;
+    background-color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+ a:hover{
+    color:var(--dark)
+}
+
 #hero{
     background: url("../img/temp_pic.jpg");
     min-height: 100vh;

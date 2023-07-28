@@ -11,14 +11,11 @@
 }
 
 #services{
-   
-    
     min-height: 100vh;
     background-position: center;
     background-size: cover;
     background-color: black;
-    
-   }
+}
 
 .maindisplay{
     margin: 0;

@@ -1,11 +1,11 @@
 
 @font-face {
-    font-family: Playfair-Display;
-    src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+    font-family: Oswald;
+    src: url("../fonts/Oswald-Medium.ttf");
 }
 
 *{
-    font-family: Playfair-Display;
+    font-family: Oswald, serif;
 }
 
 html{
@@ -15,8 +15,6 @@ html{
 /* navbar */
 .navbar{
     width: 100%;
-    padding-top: 16px;
-    padding-bottom: 16px;
     background-color: black;
     min-height: 10vh;
 }
@@ -32,8 +30,6 @@ html{
 
 .social-links a{
     font-size: 20px;
-    width: 25px;
-    height: 25px;
     color: white;
     align-items: center;
     justify-content: center;
@@ -47,7 +43,7 @@ html{
 
 /* main page */
 #hero{
-    background: url("../img/temp_pic.jpg") fixed;
+    background: url("../img/temp_pic.jpg") fixed right top;
     min-height: 90vh;
     background-size: cover;
     color: white;
@@ -122,5 +118,25 @@ html{
 @media screen and (max-width: 991px) {
     #hero{
         min-height: 100vh;
+    }
+    .main-display h1{
+        font-size: 90px;
+    }
+    .main-display h4{
+        font-size: 40px;
+    }
+    .navbar-nav{
+        font-size: 40px;
+    }
+    .navbar-brand{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    #logo{
+        width: 70px;
+        height: 75px;
+    }
+    .social-links a{
+        font-size: 35px;
     }
 }

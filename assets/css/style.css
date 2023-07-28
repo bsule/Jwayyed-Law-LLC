@@ -1,4 +1,13 @@
 
+@font-face {
+    font-family: Playfair-Display;
+    src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+*{
+    font-family: Playfair-Display;
+}
+
 .navbar{
     position:absolute;
     width: 100%;
@@ -7,27 +16,41 @@
     z-index: 9999;
 }
 
+.navbar-nav{
+    text-transform:capitalize;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.social-links a{
+    width: 36px;
+    height: 36px;
+    background-color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+ a:hover{
+    color:var(--dark)
+}
+
 #hero{
     background: url("../img/temp_pic.jpg");
     min-height: 100vh;
-    background-position: center;
     background-size: cover;
     color: white;
 }
 
 #services{
+    background-color: white;
     min-height: 100vh;
     background-position: center;
     background-size: cover;
-    background-color: white;
     text-align: center;
-
-}
-
-#services{
-    background-color: white;
-    min-height: 60vh;
-    color: black;
 }
 
 .Title-main{
@@ -48,9 +71,7 @@
 }
 
 
-
-
-.maindisplay{
+.main-display{
     margin: 0;
     position: absolute;
     top: 50%;
@@ -60,4 +81,35 @@
 
 #title{
     font-weight: bold;
+}
+
+#about-me{
+    background-color: #fff;
+    min-height: 60vh;
+    color: black;
+}
+
+.heading-about{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#about-me-header{
+    padding-top: 2vh;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#border-line{
+    border-top: solid dimgrey 1px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.about-page-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }

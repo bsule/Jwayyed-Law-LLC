@@ -25,7 +25,7 @@
 .social-links a{
     width: 36px;
     height: 36px;
-    background-color: var(--white);
+    color:var(--white);
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -34,8 +34,11 @@
     margin-left: 5px;
 }
 
- a:hover{
-    color:var(--dark)
+ .linkedin:hover{
+    background-color:white;
+}
+.Tiktok:hover{
+    background-color: white;
 }
 
 #hero{

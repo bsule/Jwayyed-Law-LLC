@@ -10,10 +10,10 @@
 
 /* navbar */
 .navbar{
-    position:absolute;
     width: 100%;
     padding-top: 16px;
     padding-bottom: 16px;
+    background-color: black;
 }
 
 .navbar-nav{
@@ -23,9 +23,9 @@
 
 .social-links a{
     font-size: 20px;
-    width: 36px;
-    height: 36px;
-    color: black;
+    width: 25px;
+    height: 25px;
+    color: grey;
     align-items: center;
     justify-content: center;
     border-radius: 100px;
@@ -39,7 +39,7 @@
 /* main page */
 #hero{
     background: url("../img/temp_pic.jpg");
-    min-height: 100vh;
+    min-height: 90vh;
     background-size: cover;
     color: white;
     width: 100%;

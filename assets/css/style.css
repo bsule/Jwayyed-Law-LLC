@@ -46,6 +46,7 @@ html{
     background: url("../img/jj-background.png") fixed right;
     min-height: 90vh;
     background-size: cover;
+    object-fit: contain;
     color: white;
     width: 100%;
 }
@@ -115,79 +116,54 @@ html{
     bottom: 0;
 }
 
+/* ! pics view */
 .services-pics-view{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.img-box{
+.pics-slide{
     width: 200px;
     height: 500px;
+    background-size: cover;
+    background-position: center center;
     transition: all 500ms;
+    object-fit: cover;
+}
+
+.pics-slide:hover{
+    width: 500px;
+    opacity: 0.8;
 }
 
 .img-box:hover{
-    width: 500px;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
     -o-transition: all .5s;
-    opacity: .8;
 }
 
 .img-box h3{
     color: black;
     text-align: center;
-    margin-top: 200px;
     opacity: 0;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 .img-box:hover h3{
     transition-delay: 100ms;
-    transition: 1000ms;
+    transition: all 1000ms;
     opacity: 1;
-    -webkit-transition: 1000ms;
-    -moz-transition: 1000ms;
-    -ms-transition: 1000ms;
-    -o-transition: 1000ms;
 }
 
-#firstpic{
-    background: url(../img/services-pics/Court-Small.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#secondpic{
-    background: url(../img/services-pics/Gavel-GettyImages-876701606-1024x683-1.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#thirdpic{
-    background: url(../img/services-pics/top-lawyers-2021.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#fourthpic{
-    background: url(../img/services-pics/Court-Small.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#fifthpic{
-    background: url(../img/services-pics/Gavel-GettyImages-876701606-1024x683-1.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#sixthpic{
-    background: url(../img/services-pics/top-lawyers-2021.jpg);
-    background-size: cover;
-    background-position: center;
+.img-box h3:hover{
+    opacity: 0;
 }
 
 

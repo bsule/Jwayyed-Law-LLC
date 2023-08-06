@@ -116,64 +116,7 @@ html{
     bottom: 0;
 }
 
-/* ! pics view */
-.services-pics-view{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.pics-slide{
-    width: 200px;
-    height: 500px;
-    background-size: cover;
-    background-position: center center;
-    transition: all 500ms;
-    object-fit: cover;
-}
-
-.pics-slide:hover{
-    width: 500px;
-    opacity: 0.8;
-}
-
-.img-box:hover{
-    transition: all .5s;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-}
-
-.img-box h3{
-    color: black;
-    text-align: center;
-    opacity: 0;
-    transition: 0.2s;
-}
-
-.img-box:hover h3{
-    transition-delay: 100ms;
-    transition: all 1000ms;
-    opacity: 1;
-}
-
-.img-box h3:hover{
-    opacity: 0;
-}
-
-.card{
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.row-cards{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 20px;
-}
 
 
 

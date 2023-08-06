@@ -94,7 +94,7 @@ html{
 /* services page */
 #services{
     background-color: white;
-    min-height: 100vh;
+    min-height: 400vh;
     text-align: center;
 }
 
@@ -164,6 +164,153 @@ html{
 
 .img-box h3:hover{
     opacity: 0;
+}
+
+.service-Drunk{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    transform: translate(40%,60%);
+    background: linear-gradient(transparent);
+    border-radius: 20px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .7);
+    margin: 0 8px 8px 8px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width:350px;
+    margin-right: 100;
+    height:250px;
+   
+}
+.service-Speed{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    transform: translate(175%,-43%);
+    background: linear-gradient(transparent);
+    border-radius: 20px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .7);
+    margin: 0 8px 8px 8px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width:350px;
+    margin-right: 100;
+    height:250px;
+   
+
+}
+.service-Immigration{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    transform: translate(40%,10%);
+    background: linear-gradient(transparent);
+    border-radius: 20px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .7);
+    margin: 0 8px 8px 8px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width:350px;
+    margin-right: 100;
+    height:250px;
+
+}
+.service-Wills{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    transform: translate(175%,-94%);
+    background: linear-gradient(transparent);
+    border-radius: 20px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .7);
+    margin: 0 8px 8px 8px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width:350px;
+    margin-right: 100;
+    height:250px;
+
+}
+.service-Defense{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    transform: translate(175%,-45%);
+    background: linear-gradient(transparent);
+    border-radius: 20px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .7);
+    margin: 0 8px 8px 8px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width:350px;
+    margin-right: 100;
+    height:250px;
+
+}
+.service-Disputes{
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    transform: translate(40%,-146%);
+    background: linear-gradient(transparent);
+    border-radius: 20px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, .7);
+    margin: 0 8px 8px 8px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    padding: 10px;
+    max-width:350px;
+    margin-right: 100;
+    height:250px;
+    
+
+}
+#border-line-Drunk{
+    border-top: solid dimgrey 1px;
+    width: 100px;
+    position: absolute;
+    transform: translate(267%,-53px);
+    
+
+}
+#border-line-speed{
+    border-top: solid dimgrey 1px;
+    width: 100px;
+    position: absolute;
+    transform: translate(750%,-310px);
+    
+}
+#border-line-Immigration{
+    border-top: solid dimgrey 1px;
+    width: 100px;
+    position: absolute;
+    transform: translate(273%, -180px);
+}
+#border-line-Wills{
+    border-top: solid dimgrey 1px;
+    width: 40px;
+    position: absolute;
+    transform: translate(1940%, -440px);
+
+}
+#border-line-Defense{
+    border-top: solid dimgrey 1px;
+    width: 100px;
+    position: absolute;
+    transform: translate(275%, -310px);
+
+}
+#border-line-Disputes{
+    border-top: solid dimgrey 1px;
+    width: 100px;
+    position: absolute;
+    transform: translate(750%, -575px);
+
 }
 
 

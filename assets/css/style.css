@@ -91,6 +91,31 @@ html{
     text-align: center;
 }
 
+/* quote */
+#quote{
+    min-height: 50vh;
+    background-color: rgb(16, 15, 75);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    text-align: center;
+}
+
+.quote-text img{
+    width: 70px;
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+#quote-name{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 /* services page */
 #services{
     background-color: white;
@@ -105,6 +130,7 @@ html{
 }
 
 #service-h1{
+    margin-top: 40px;
     padding-bottom: 20px;
     font-weight: bold;
 }
@@ -116,8 +142,22 @@ html{
     bottom: 0;
 }
 
+/* contact */
+#contact{
+    min-height: 50vh;
+    background-color: rgb(16, 15, 75);
+    color: white;
+}
 
+.contact-text{
+    text-align: center;
+    margin-top: 70px;
+}
 
+#border-line-contact{
+    border: 2px solid white;
+    margin-top: 170px;
+}
 
 
 @media screen and (max-width: 991px) {

@@ -19,6 +19,11 @@ html{
     min-height: 10vh;
 }
 
+.navbar-brand img{
+    max-width: 45px;
+    max-height: 50px;
+}
+
 .navbar-nav{
     font-size: 20px;
     margin-right: 60px;
@@ -91,10 +96,28 @@ html{
     text-align: center;
 }
 
+.about-page-pics{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+#middlepicabout{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.about-page-pics img{
+    max-width: 400px;
+    max-height: 300px;
+}
+
 /* quote */
 #quote{
     min-height: 50vh;
-    background-color: rgb(16, 15, 75);
+    background-color: #5B5754;
     color: white;
     display: flex;
     justify-content: center;
@@ -119,7 +142,7 @@ html{
 /* services page */
 #services{
     background-color: white;
-    min-height: 400vh;
+    min-height: 150vh;
     text-align: center;
 }
 
@@ -141,24 +164,32 @@ html{
     position: absolute;
     bottom: 0;
 }
+
 .card-container{
     min-height: 100px;
     min-width: 100px;
 }
+
 #card-image {
     min-height: 200px;
     max-height: 200px;
     object-fit: cover;
-  }
-  .card-text{
-    font-size: 1.5em;
-  }
+}
 
+.card-title{
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text{
+    font-size: 1.5em;
+}
 
 /* contact */
 #contact{
     min-height: 50vh;
-    background-color: rgb(16, 15, 75);
+    background-color: black;
     color: white;
 }
 
@@ -174,18 +205,7 @@ html{
 
 
 @media screen and (max-width: 991px) {
-    #hero{
-        min-height: 100vh;
-        background: url("../img/jj-background-mobile.png") center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .main-display h1{
-        font-size: 90px;
-    }
-    .main-display h4{
-        font-size: 40px;
-    }
+    /* navbar */
     .navbar-nav{
         font-size: 40px;
     }
@@ -199,5 +219,89 @@ html{
     }
     .social-links a{
         font-size: 35px;
+    }
+    /* coverpage */
+    #hero{
+        background: url("../img/jj-background-mobile.png") center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-display h1{
+        font-size: 90px;
+    }
+    .main-display h4{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    /* aboutpage */
+    .about-page-pics{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-page-pics img{
+        width: 100%;
+    }
+    #middlepicabout{
+        margin: 20px 0 20px 0;
+    }
+    /* services */
+    #secondcard, #thirdcard, #fifthcard, #sixthcard{
+        margin-top: 30px;
+    }
+    .cstm-height-card{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    /* coverpage */
+    #hero{
+        background: url("../img/jj-background-mobile3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 75% 100%;
+    }
+    #title{
+        font-size: 40px;
+    }
+    .main-display h4{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /* coverpage */
+    #hero{
+        background: url("../img/jj-background-mobile4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 85% 80%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    /* coverpage */
+    #hero{
+        background-position: 90%;
+    }
+    .main-display{
+        margin: 200px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        top: 0;
+        transform: 0;
+    }
+    #title{
+        font-size: 50px;
+    }
+    .main-display h4{
+        font-size: 10px;
     }
 }

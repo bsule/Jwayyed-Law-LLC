@@ -17,38 +17,36 @@
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="">
-                <img src="assets/img/logo.png" id="logo" width="45" height="50">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href=""><img src="assets/img/logo.png" width="43" height="45"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-
-                <div class="social-links">
-                    <a class="linkedin" href="https://www.linkedin.com/in/jwayyed-jwayyed-b356b921b" target="_blank"><i class="fa fa-brands fa-linkedin fa-xl"></i></a>
-                    <a class="tiktok" href="#" target="_blank"><i class="fa fa-brands fa-tiktok fa-xl"></i></a>
+            <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Jwayyed Law LLC</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </nav>
+      </nav>
 
 
     <section id="hero">

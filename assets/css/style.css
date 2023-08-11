@@ -207,7 +207,6 @@ html{
     margin-top: 170px;
 }
 
-
 .icons {
 	display: flex;
     align-items: center;
@@ -230,9 +229,11 @@ html{
 .icon:hover {
 	outline-offset: 4px;
 }
+
 .icon i {
 	margin: auto;
 }
+
 .icon:hover i {
 	animation: shake 0.25s;
 }
@@ -241,10 +242,12 @@ html{
 	background-color: #0077b5;
 	outline-color: #0077b5;
 }
+
 .icon--tiktok:hover {
 	background-color: red;
 	outline-color: red;
 }
+
 @keyframes shake {
 	10% {
 		transform: rotate(15deg);

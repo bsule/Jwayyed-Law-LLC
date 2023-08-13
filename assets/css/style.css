@@ -94,9 +94,7 @@ html{
     transform: translateY(-50%);
 }
 
-#phonenumber:link{
-    color: white;
-}
+#hero a, #hero a:hover, #hero a:active, #hero a:visited { color: white; }
 
 /* about me page */
 #about-me{
@@ -382,5 +380,16 @@ html{
     }
     .main-display h4{
         font-size: 17px;
+    }
+    /* quote */
+    .quote-text h3{
+        font-size: 22px;
+    }
+    #quote{
+        min-height: 60vh;
+    }
+    /* cards */
+    .card-text{
+        font-size: 20px;
     }
 }

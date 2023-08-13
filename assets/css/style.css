@@ -55,12 +55,12 @@ html{
     margin-top: 200px;
 }
 
-#close-word-btn{
+/* #close-word-btn{
     font-size: 20px;
     position: absolute;
     bottom: 0;
     margin-right: 200px;
-}
+} */
 
 .show{
     display: block;
@@ -92,6 +92,10 @@ html{
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+#phonenumber:link{
+    color: white;
 }
 
 /* about me page */
@@ -302,10 +306,10 @@ html{
         background-size: cover;
     }
     .main-display h1{
-        font-size: 90px;
+        font-size: 60px;
     }
     .main-display h4{
-        font-size: 40px;
+        font-size: 25px;
     }
 }
 
@@ -334,23 +338,23 @@ html{
 @media screen and (max-width: 830px) {
     /* coverpage */
     #hero{
-        background: url("../img/jj-background-mobile3.png");
+        background: url("../img/jj-background-mobile800.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 75% 100%;
     }
     #title{
-        font-size: 40px;
+        font-size: 45px;
     }
     .main-display h4{
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width: 600px) {
     /* coverpage */
     #hero{
-        background: url("../img/jj-background-mobile4.png");
+        background: url("../img/jj-background-mobile600.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 85% 80%;

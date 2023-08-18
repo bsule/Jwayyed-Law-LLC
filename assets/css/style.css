@@ -174,8 +174,7 @@ html{
 /* services page */
 #services{
     background-color: white;
-    min-height: 150vh;
-    text-align: center;
+    min-height: 200vh;
 }
 
 .service-title{
@@ -197,30 +196,45 @@ html{
     bottom: 0;
 }
 
-.card-container{
-    min-height: 100px;
-    min-width: 100px;
+.first_row{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
-#card-image {
-    min-height: 200px;
-    max-height: 200px;
-    object-fit: cover;
+figure{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    object-fit: contain;
+    width: 450px;
 }
 
-.card-title{
-    font-size: 1.6em;
-    font-weight: bold;
-    margin-bottom: 10px;
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.card-text{
-    font-size: 1.5em;
+figcaption{
+    display: inline;
+    overflow-wrap: break-word;
+}
+
+.figcaption-title{
+    font-size: 32px;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* contact */
 #contact{
-    min-height: 50vh;
+    min-height: 45vh;
     background-color: black;
     color: white;
 }
@@ -309,6 +323,10 @@ html{
     .main-display h4{
         font-size: 25px;
     }
+    /* services */
+    .first_row {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 1260px) {
@@ -325,12 +343,7 @@ html{
         margin: 20px 0 20px 0;
     }
     /* services */
-    #secondcard, #thirdcard, #fifthcard, #sixthcard{
-        margin-top: 30px;
-    }
-    .cstm-height-card{
-        margin-top: 0;
-    }
+    
 }
 
 @media screen and (max-width: 830px) {
@@ -356,6 +369,10 @@ html{
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 85% 80%;
+    }
+    /* services */
+    figure{
+        width: 400px;
     }
 }
 
@@ -388,8 +405,11 @@ html{
     #quote{
         min-height: 60vh;
     }
-    /* cards */
-    .card-text{
-        font-size: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    /* services */
+    figure{
+        width: 350px;
     }
 }

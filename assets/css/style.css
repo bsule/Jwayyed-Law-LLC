@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 @font-face {
-    font-family: Oswald;
-    src: url("../fonts/Oswald-Medium.ttf");
+    font-family: Raleway;
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
 }
 
 *{
-    font-family: Oswald, serif;
+    font-family: Raleway, serif;
+    font-weight: 600;
 }
 
 html{
@@ -92,6 +93,10 @@ html{
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+#title{
+    font-weight: bold;
 }
 
 #hero a, #hero a:hover, #hero a:active, #hero a:visited { color: white; }
@@ -203,18 +208,27 @@ html{
     flex-direction: row;
 }
 
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+#leftpic{
+    justify-content: end;
+    align-items: end;
+    margin-right: 20px;
+}
+
+#rightpic{
+    margin-left: 20px;
+}
+
 figure{
     display: flex;
     justify-content: center;
     flex-direction: column;
     object-fit: contain;
     width: 450px;
-}
-
-.col{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 figcaption{
@@ -226,11 +240,6 @@ figcaption{
     font-size: 32px;
 }
 
-.col{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
 /* contact */
 #contact{
@@ -324,8 +333,19 @@ figcaption{
         font-size: 25px;
     }
     /* services */
+    .col{
+        margin-top: 40px;
+    }
     .first_row {
         flex-direction: column;
+    }
+    #leftpic{
+        margin-right: 0;
+        align-items: center;
+    }
+    #rightpic{
+        margin-left: 0;
+        align-items: center;
     }
 }
 

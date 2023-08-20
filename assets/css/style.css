@@ -213,7 +213,7 @@ html{
     flex-direction: column;
 }
 
-#leftpic{
+#leftpic, #leftpic-first{
     justify-content: end;
     align-items: end;
     margin-right: 20px;
@@ -334,12 +334,19 @@ figcaption{
     }
     /* services */
     .col{
-        margin-top: 40px;
+        margin-top: 60px;
+    }
+    #leftpic-first{
+        margin-top: 40px !important;
+    }
+    #service-container{
+        margin-bottom: 50px;
     }
     .first_row {
         flex-direction: column;
+        margin-top: 0;
     }
-    #leftpic{
+    #leftpic, #leftpic-first{
         margin-right: 0;
         align-items: center;
     }

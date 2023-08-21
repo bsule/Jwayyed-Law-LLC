@@ -93,6 +93,9 @@ html{
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
 }
 
 #title{
@@ -253,6 +256,11 @@ figcaption{
     margin-top: 70px;
 }
 
+#address-contact{
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
 #border-line-contact{
     border: 2px solid white;
     margin-top: 170px;
@@ -320,6 +328,9 @@ figcaption{
     #close-word-btn{
         visibility: visible;
     }
+    #addressnavbar{
+        margin-bottom: 0;
+    }
     /* coverpage */
     #hero{
         background: url("../img/jj-background-mobile.png") center;
@@ -369,8 +380,6 @@ figcaption{
     #middlepicabout{
         margin: 20px 0 20px 0;
     }
-    /* services */
-    
 }
 
 @media screen and (max-width: 830px) {
@@ -397,17 +406,6 @@ figcaption{
         background-size: cover;
         background-position: 85% 80%;
     }
-    /* services */
-    figure{
-        width: 400px;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    /* coverpage */
-    #hero{
-        background-position: 90%;
-    }
     .main-display{
         margin: 200px;
         margin-right: auto;
@@ -420,10 +418,21 @@ figcaption{
         transform: 0;
     }
     #title{
-        font-size: 50px;
+        font-size: 40px;
     }
     .main-display h4{
         font-size: 17px;
+    }
+    /* services */
+    figure{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    /* coverpage */
+    #hero{
+        background-position: 90%;
     }
     /* quote */
     .quote-text h3{

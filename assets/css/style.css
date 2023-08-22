@@ -79,7 +79,7 @@ html{
 
 /* main page */
 #hero{
-    background: url("../img/jj-background.png") fixed right;
+    background: url("../img/backgroundpics/jj-background.png") fixed right;
     min-height: 100vh;
     background-size: cover;
     object-fit: contain;
@@ -133,6 +133,7 @@ html{
 .about-page-text{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -154,9 +155,72 @@ html{
     max-height: 300px;
 }
 
+#btn-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    width: 20%;
+}
+
+/* about me vid */
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    pointer-events: none;
+    transition: all .1s;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    -ms-transition: all .1s;
+    -o-transition: all .1s;
+}
+
+.video-container .close{
+    position: absolute;
+    color: white;
+    top: 10%;
+    right: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.video-container video{
+    width: 90%;
+    height: 100%;
+    max-width: 800px;
+    transform: scale(0);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.2s; /* when clicked transition */
+}
+
+.video-container.show{
+    pointer-events: all;
+    opacity: 1;
+}
+
+.video-container.show video{
+    margin-top: auto;
+    margin-bottom: auto;
+    transform: scale(1);
+    height: 80%;
+    width: auto;
+}
+
 /* quote */
 #quote{
-    min-height: 50vh;
+    min-height: 60vh;
     background-color: #5B5754;
     color: white;
     display: flex;
@@ -179,6 +243,14 @@ html{
     margin-top: 20px;
 }
 
+#btn-see-more{
+    margin-top: 10px;
+    font-weight: bold;
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* services page */
 #services{
     background-color: white;
@@ -189,6 +261,10 @@ html{
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+#service-container{
+    margin-bottom: 60px;
 }
 
 #service-h1{
@@ -205,7 +281,7 @@ html{
 }
 
 .first_row{
-    margin-top: 70px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -243,7 +319,6 @@ figcaption{
     font-size: 32px;
 }
 
-
 /* contact */
 #contact{
     min-height: 45vh;
@@ -256,14 +331,21 @@ figcaption{
     margin-top: 70px;
 }
 
+#phonenumber-contact{
+    margin-top: 70px;
+}
+
 #address-contact{
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 3px;
 }
 
 #border-line-contact{
-    border: 2px solid white;
-    margin-top: 170px;
+    border: 1px solid white;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 110px;
 }
 
 .icons {
@@ -271,6 +353,7 @@ figcaption{
     align-items: center;
     justify-content: center;
 	column-gap: 25px;
+    margin-bottom: 25px;
 }
 .icon {
 	display: inline-flex;
@@ -333,7 +416,7 @@ figcaption{
     }
     /* coverpage */
     #hero{
-        background: url("../img/jj-background-mobile.png") center;
+        background: url("../img/backgroundpics/jj-background-mobile.png") center;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -342,6 +425,13 @@ figcaption{
     }
     .main-display h4{
         font-size: 25px;
+    }
+    /* quote */
+    #quote{
+        min-height: 65vh;
+    }
+    #btn-see-more{
+        width: 50% !important;
     }
     /* services */
     .col{
@@ -382,10 +472,17 @@ figcaption{
     }
 }
 
+@media screen and (max-width: 1400px) {
+    /* quote */
+    #btn-see-more{
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 830px) {
     /* coverpage */
     #hero{
-        background: url("../img/jj-background-mobile800.png");
+        background: url("../img/backgroundpics/jj-background-mobile800.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 75% 100%;
@@ -401,7 +498,7 @@ figcaption{
 @media screen and (max-width: 600px) {
     /* coverpage */
     #hero{
-        background: url("../img/jj-background-mobile600.png");
+        background: url("../img/backgroundpics/jj-background-mobile600.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 85% 80%;
@@ -423,6 +520,10 @@ figcaption{
     .main-display h4{
         font-size: 17px;
     }
+    /* quote */
+    #btn-see-more{
+        width: 80% !important;
+    }
     /* services */
     figure{
         width: 400px;
@@ -439,7 +540,7 @@ figcaption{
         font-size: 22px;
     }
     #quote{
-        min-height: 60vh;
+        min-height: 70vh;
     }
 }
 

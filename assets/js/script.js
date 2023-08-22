@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
     const hiddendiv = document.querySelector('.offcanvas-content');
 
     offcanvas.addEventListener('show.bs.offcanvas', function(){
-        hiddendiv.classList.toggle('show');
+        hiddendiv.classList.toggle('show'); // show hidden content when the navbar is clicked
     });
     offcanvas.addEventListener('hidden.bs.offcanvas', function(){
         hiddendiv.classList.toggle('show');

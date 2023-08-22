@@ -56,13 +56,6 @@ html{
     margin-top: 200px;
 }
 
-/* #close-word-btn{
-    font-size: 20px;
-    position: absolute;
-    bottom: 0;
-    margin-right: 200px;
-} */
-
 .show{
     display: block;
 }
@@ -76,6 +69,8 @@ html{
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1.00%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
+
+.offcanvas-body a, .offcanvas-body a:hover, .offcanvas-body a:active, .offcanvas-body a:visited { color: white; }
 
 #linkedin-nav, #tiktok-nav{
     margin-top: 40px;
@@ -334,6 +329,8 @@ figcaption{
     color: white;
 }
 
+#contact a, #contact a:hover, #contact a:active, #contact a:visited { color: white; }
+
 #logo-contact{
     margin-top: 0;
     margin-bottom: 20px;
@@ -573,6 +570,10 @@ figcaption{
 }
 
 @media screen and (max-width: 420px) {
+    /* cover page */
+    #title{
+        font-size: 37px;
+    }
     /* quote */
     .quote-text h3{
         font-size: 20px;

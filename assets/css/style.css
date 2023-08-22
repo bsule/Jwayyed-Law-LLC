@@ -21,12 +21,12 @@ html{
 }
 
 .nav-link{
-    color: white;
+    color: white !important;
     font-size: 18px;
 }
 
 .nav-link:hover{
-    color: #5B5754;
+    color: #5B5754 !important;
 }
 
 .navbar-toggler{
@@ -75,6 +75,18 @@ html{
 
 .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1.00%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+#linkedin-nav, #tiktok-nav{
+    margin-top: 40px;
+}
+
+#linkedin-nav{
+    margin-right: 5px;
+}
+
+#tiktok-nav{
+    margin-left: 5px;
 }
 
 /* main page */
@@ -179,11 +191,7 @@ html{
     background-color: rgba(0, 0, 0, 0.8);
     opacity: 0;
     pointer-events: none;
-    transition: all .1s;
-    -webkit-transition: all .1s;
-    -moz-transition: all .1s;
-    -ms-transition: all .1s;
-    -o-transition: all .1s;
+    transition: all .2s;
 }
 
 .video-container .close{
@@ -493,6 +501,14 @@ figcaption{
     .main-display h4{
         font-size: 20px;
     }
+    /* about page */
+    #btn-video{
+        width: 40%;
+    }
+    /* quote */
+    #quote{
+        min-height: 70vh;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -542,9 +558,20 @@ figcaption{
     #quote{
         min-height: 70vh;
     }
+    .video-container .close{
+        right: 0;
+    }
+    .video-container.show video{
+        width: 90%;
+        height: auto;
+    }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
+    /* quote */
+    .quote-text h3{
+        font-size: 20px;
+    }
     /* services */
     figure{
         width: 350px;

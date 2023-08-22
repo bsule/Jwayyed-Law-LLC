@@ -54,7 +54,7 @@ html{
 .offcanvas-content{
     display: none;
     color: white;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .show{
@@ -109,11 +109,12 @@ html{
 #title{
     font-size: 60px;
     font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 #under-title{
     font-size: 20px;
-    margin-top: 10px;
 }
 
 #hero a, #hero a:hover, #hero a:active, #hero a:visited { color: white; }
@@ -572,7 +573,7 @@ figcaption{
         font-size: 22px;
     }
     #quote{
-        min-height: 75vh;
+        min-height: 78vh;
     }
     .video-container .close{
         right: 0;

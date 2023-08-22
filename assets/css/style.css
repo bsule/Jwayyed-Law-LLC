@@ -334,6 +334,11 @@ figcaption{
     color: white;
 }
 
+#logo-contact{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 .contact-text{
     text-align: center;
     margin-top: 70px;

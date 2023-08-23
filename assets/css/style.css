@@ -152,6 +152,10 @@ html{
     text-align: center;
 }
 
+.about-page-text h3{
+    font-weight: 650;
+}
+
 .about-page-pics{
     display: flex;
     justify-content: center;
@@ -239,8 +243,16 @@ html{
     align-items: center;
 }
 
+#quote-pic{
+    margin-top: 70px;
+}
+
 .quote-text{
     text-align: center;
+}
+
+.quote-text h3{
+    font-weight: 600;
 }
 
 .quote-text img{
@@ -260,6 +272,7 @@ html{
     width: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 70px;
 }
 
 /* services page */
@@ -450,9 +463,6 @@ figcaption{
         font-size: 25px;
     }
     /* quote */
-    #quote{
-        min-height: 65vh;
-    }
     #btn-see-more{
         width: 50% !important;
     }
@@ -520,10 +530,6 @@ figcaption{
     #btn-video{
         width: 40%;
     }
-    /* quote */
-    #quote{
-        min-height: 70vh;
-    }
 }
 
 @media screen and (max-width: 600px) {
@@ -568,12 +574,13 @@ figcaption{
     #hero{
         background-position: 90%;
     }
+    /* about me */
+    .about-page-text h3{
+        font-size: 20px;
+    }
     /* quote */
     .quote-text h3{
         font-size: 22px;
-    }
-    #quote{
-        min-height: 78vh;
     }
     .video-container .close{
         right: 0;

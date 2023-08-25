@@ -153,6 +153,7 @@ html{
 }
 
 .about-page-text h3{
+    font-size: 25px;
     font-weight: 650;
 }
 
@@ -341,6 +342,10 @@ figcaption{
 
 .figcaption-title{
     font-size: 32px;
+}
+
+.figcaption-text{
+    font-size: 17px;
 }
 
 /* contact */

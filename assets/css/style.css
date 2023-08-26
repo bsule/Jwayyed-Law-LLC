@@ -155,6 +155,7 @@ html{
 .about-page-text h3{
     font-size: 25px;
     font-weight: 600;
+    line-height: 32px;
 }
 
 .about-page-pics{
@@ -305,47 +306,36 @@ html{
     bottom: 0;
 }
 
-.first_row{
+.estate-planning-text{
     margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.second-row{
+    margin-top: 40px;
 }
 
 .col{
     display: flex;
-    flex-direction: column;
-}
-
-#leftpic, #leftpic-first{
-    justify-content: end;
-    align-items: end;
-    margin-right: 20px;
-}
-
-#rightpic{
-    margin-left: 20px;
-}
-
-figure{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    object-fit: contain;
-    width: 450px;
-}
-
-figcaption{
-    display: inline;
-    overflow-wrap: break-word;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .figcaption-title{
-    font-size: 32px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 .figcaption-text{
-    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    max-width: 400px;
+    text-align: center;
 }
 
 /* contact */
@@ -474,25 +464,21 @@ figcaption{
     /* services */
     .col{
         margin-top: 60px;
-    }
-    #leftpic-first{
-        margin-top: 40px !important;
-    }
-    #service-container{
-        margin-bottom: 50px;
-    }
-    .first_row {
         flex-direction: column;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .first-row{
+    }
+    .second-row{
         margin-top: 0;
     }
-    #leftpic, #leftpic-first{
-        margin-right: 0;
-        align-items: center;
+    figure{
+        margin-left: auto;
+        margin-right: auto;
     }
-    #rightpic{
-        margin-left: 0;
-        align-items: center;
-    }
+
 }
 
 @media screen and (max-width: 1260px) {

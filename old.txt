@@ -1,0 +1,87 @@
+<div class="row">
+                <div class="first_row">
+                    <div class="col" id="leftpic-first">
+                        <figure>
+                            <img src="assets\img\verticalpic1.jpg">
+                            <figcaption class="figcaption-title">Alternative Dispute Resolution</figcaption>
+                            <figcaption class="figcaption-text">Although sometimes necessary, litigation can be time consuming and expensive. Utilizing Alternative Dispute Resolution methods such as  mediation, arbitration and negotiation can sometimes be the most efficient and most effective  ways to achieve a clients goals. <br> <br>
+
+                            Contact us to set up a free consultation!</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col" id="rightpic">
+                        <figure>
+                            <img src="assets\img\veritcalpic2.jpg">
+                            <figcaption class="figcaption-title">Business Law</figcaption>
+                            <figcaption class="figcaption-text">No matter the size of the business, every business needs to have solid legal representation. The first step is to determine what type of business to form and filing the proper paperwork with the State of Ohio. From forming your business properly, drafting legally binding business contracts that protect your businesses interests, to dissolving the business when necessary, Jwayyed Law LLC handles all your business’ needs.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="first_row">
+                    <div class="col" id="leftpic">
+                        <figure>
+                            <img src="assets\img\verticalpic1.jpg">
+                            <figcaption class="figcaption-title">Injury</figcaption>
+                            <figcaption class="figcaption-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil qui veritatis commodi possimus assumenda quidem labore delectus eaque alias hic placeat perferendis obcaecati molestiae, non enim optio eligendi debitis eveniet.</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="col" id="rightpic">
+                        <figure>
+                            <img src="assets\img\veritcalpic2.jpg">
+                            <figcaption class="figcaption-title">Immigration</figcaption>
+                            <figcaption class="figcaption-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis enim ullam in quasi voluptatem mollitia laboriosam voluptatibus cupiditate nisi dicta. Qui deserunt nobis dolorum vero enim quam reprehenderit, saepe quas!</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+.first_row{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+#leftpic, #leftpic-first{
+    justify-content: end;
+    align-items: end;
+    margin-right: 20px;
+}
+
+#rightpic{
+    margin-left: 20px;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    object-fit: contain;
+    width: 450px;
+}
+
+figcaption{
+    display: inline;
+    overflow-wrap: break-word;
+}
+
+.figcaption-title{
+    font-size: 32px;
+}
+
+.figcaption-text{
+    font-size: 17px;
+}

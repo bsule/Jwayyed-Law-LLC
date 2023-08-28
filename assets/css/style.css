@@ -266,6 +266,7 @@ html{
 .awards-div p{
     margin-top: 10px;
     font-size: 20px;
+    word-wrap:unset;
 }
 
 #title-ohio, #title-cali{

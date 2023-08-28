@@ -124,6 +124,7 @@ html{
     background-color: #fff;
     min-height: 60vh;
     color: black;
+    padding-top: 55px;
 }
 
 .heading-about{
@@ -133,7 +134,6 @@ html{
 }
 
 #about-me-header{
-    padding-top: 2vh;
     padding-bottom: 20px;
     font-weight: bold;
 }
@@ -280,7 +280,8 @@ html{
 /* services page */
 #services{
     background-color: white;
-    min-height: 200vh;
+    min-height: 70vh;
+    padding-top: 20px;
 }
 
 .service-title{
@@ -318,6 +319,8 @@ html{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+#services a, #services a:hover, #services a:active, #services a:visited { color: black; }
 
 /* contact */
 #contact{
@@ -581,4 +584,25 @@ html{
     figure{
         width: 350px;
     }
+}
+
+
+/* services page */
+
+.services-listed{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.services-listed h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#free-consul-text{
+    font-weight: bold;
+}
+
+#adr, #bl, #epandp, #wills, #paandad, #trusts, #np, #contracts, #immigration, #more{
+    padding-top: 1px;
 }

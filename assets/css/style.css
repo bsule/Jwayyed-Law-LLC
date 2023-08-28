@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 @font-face {
-    font-family: Montserrat;
-    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+    font-family: Catamaran;
+    src: url("../fonts/Catamaran-VariableFont_wght.ttf");
 }
 
 *{
-    font-family: Montserrat, serif;
+    font-family: Catamaran, serif;
     font-weight: 600;
 }
 
@@ -154,8 +154,9 @@ html{
 
 .about-page-text h3{
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 32px;
+    text-align: left;
 }
 
 .about-page-pics{
@@ -235,6 +236,54 @@ html{
     width: auto;
 }
 
+/* awards */
+#awards{
+    min-height: 50vh;
+}
+
+.awards-title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#border-line-recog{
+    border-top: solid dimgrey 1px;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+}
+
+#recog-acc{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.awards-div{
+    text-align: center;
+}
+
+.awards-div p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#title-ohio, #title-cali{
+    margin-bottom: 0;
+}
+
+#speech-vid{
+    max-height: 400px;
+}
+
+#awards-para-first, #awards-para-second{
+    margin-top: 0;
+}
+
+#awards-para-second{
+    margin-bottom: 50px;
+}
+
 /* quote */
 #quote{
     min-height: 60vh;
@@ -246,7 +295,11 @@ html{
 }
 
 #quote-pic{
-    margin-top: 70px;
+    margin-top: 30px;
+}
+
+#quote-pic-bottom{
+    margin-top: 10px;
 }
 
 .quote-text{
@@ -255,6 +308,7 @@ html{
 
 .quote-text h3{
     font-weight: 600;
+    margin-bottom: 0;
 }
 
 .quote-text img{
@@ -274,7 +328,7 @@ html{
     width: 20%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 
 /* services page */
@@ -441,28 +495,15 @@ html{
     .main-display h4{
         font-size: 25px;
     }
+    /* awards */
+    #awards-para-first, #awards-para-second{
+        margin-top: 0;
+        text-align: left;
+    }
     /* quote */
     #btn-see-more{
         width: 50% !important;
     }
-    /* services */
-    .col{
-        margin-top: 60px;
-        flex-direction: column;
-        justify-content: center;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .first-row{
-    }
-    .second-row{
-        margin-top: 0;
-    }
-    figure{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
 }
 
 @media screen and (max-width: 1260px) {
@@ -538,10 +579,6 @@ html{
     #btn-see-more{
         width: 80% !important;
     }
-    /* services */
-    figure{
-        width: 400px;
-    }
 }
 
 @media screen and (max-width: 540px) {
@@ -580,15 +617,10 @@ html{
     .quote-text h3{
         font-size: 20px;
     }
-    /* services */
-    figure{
-        width: 350px;
-    }
 }
 
 
 /* services page */
-
 .services-listed{
     margin-top: 100px;
     text-align: center;

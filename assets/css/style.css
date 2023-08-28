@@ -306,36 +306,17 @@ html{
     bottom: 0;
 }
 
-.estate-planning-text{
-    margin-top: 40px;
-    margin-bottom: 40px;
+.services-offered{
     text-align: center;
 }
 
-.second-row{
-    margin-top: 40px;
+.services-offered h5{
+    margin-bottom: 12px;
 }
 
-.col{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.figcaption-title{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
-
-.figcaption-text{
-    position: relative;
-    display: inline-block;
-    font-size: 16px;
-    max-width: 400px;
-    text-align: center;
+#free-consol-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* contact */

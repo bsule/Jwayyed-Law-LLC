@@ -13,25 +13,25 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 
-const btn = document.querySelector('#btn-video');
-const videoContainer = document.querySelector('.video-container');
-const close = document.querySelector('.close');
-const video = document.querySelector('#video');
+// const btn = document.querySelector('#btn-video');
+// const videoContainer = document.querySelector('.video-container');
+// const close = document.querySelector('.close');
+// const video = document.querySelector('#video');
 
 
-btn.addEventListener('click', ()=>{
-    videoContainer.classList.add('show');
-    video.play();
-})
+// btn.addEventListener('click', ()=>{
+//     videoContainer.classList.add('show');
+//     video.play();
+// })
 
-videoContainer.addEventListener('click', function(event){
-    if(event.target.id !== "video"){
-        videoContainer.classList.remove('show');
-        video.pause();
-    }
-})
+// videoContainer.addEventListener('click', function(event){
+//     if(event.target.id !== "video"){
+//         videoContainer.classList.remove('show');
+//         video.pause();
+//     }
+// })
 
-close.addEventListener('click', ()=>{
-    videoContainer.classList.remove('show');
-    video.pause();
-})
+// close.addEventListener('click', ()=>{
+//     videoContainer.classList.remove('show');
+//     video.pause();
+// })

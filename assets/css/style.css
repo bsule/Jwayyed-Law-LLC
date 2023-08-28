@@ -620,12 +620,21 @@ html{
 
 .services-listed{
     margin-top: 100px;
-    text-align: center;
+    text-align: left;
 }
 
 .services-listed h2{
-    margin-top: 100px;
+    margin-top: 30px;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.services-listed img{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 #free-consul-text{

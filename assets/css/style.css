@@ -295,6 +295,14 @@ html{
     align-items: center;
 }
 
+#bootstrap-carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100vh;
+}
+
 #quote-pic{
     margin-top: 30px;
 }
@@ -504,6 +512,18 @@ html{
     #btn-see-more{
         width: 50% !important;
     }
+    /* service page */
+    .service-section{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+    .service-section img{
+        width: 500px !important;
+    }
+    .text-service{
+        width: 500px !important;
+    }
 }
 
 @media screen and (max-width: 1260px) {
@@ -597,6 +617,7 @@ html{
         width: 90%;
         height: auto;
     }
+    /* service page */
 }
 
 @media screen and (max-width: 420px) {
@@ -627,7 +648,7 @@ html{
 .services-listed h2{
     margin-top: 30px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .services-listed img{
@@ -643,5 +664,48 @@ html{
 }
 
 #adr, #bl, #epandp, #wills, #paandad, #trusts, #np, #contracts, #immigration, #more{
-    padding-top: 1px;
+    padding-top: 3px;
+}
+
+.service-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-section img{
+    width: 30%;
+    height: fit-content;
+}
+
+.text-service{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#main-title{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#secondary-title{
+    font-size: 28px;
+}
+
+.main-title{
+    text-align: center !important;
+}
+
+#paandad, #trusts, #wills, #np, #adr, #bl, #contracts, #immigration{
+    margin-top: 50px;
+}
+
+#list-immig{
+    text-align: center;
+}
+
+#adr{
+    margin-bottom: 50px;
 }

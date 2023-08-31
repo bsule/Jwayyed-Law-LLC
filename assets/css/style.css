@@ -285,7 +285,7 @@ html{
     margin-bottom: 50px;
 }
 
-/* quote */
+/* ! quote */
 #quote{
     min-height: 60vh;
     background-color: #5B5754;
@@ -293,53 +293,34 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #bootstrap-carousel{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 60vh;
+}
+
+.carousel-inner{
+    width: 130vh;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item h4, .carousel-item p{
     width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#quote-pic{
-    margin-top: 30px;
-}
-
-#quote-pic-bottom{
-    margin-top: 10px;
-}
-
-.quote-text{
+.author{
     text-align: center;
 }
 
-.quote-text h3{
-    font-weight: 600;
-    margin-bottom: 0;
-}
-
-.quote-text img{
-    width: 70px;
-    height: 55px;
-    margin-bottom: 10px;
-}
-
-#quote-name{
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-#btn-see-more{
-    margin-top: 10px;
-    font-weight: bold;
-    width: 20%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/* services page */
+/* ! services page */
 #services{
     background-color: white;
     min-height: 70vh;
@@ -384,7 +365,7 @@ html{
 
 #services a, #services a:hover, #services a:active, #services a:visited { color: black; }
 
-/* contact */
+/* ! contact */
 #contact{
     min-height: 45vh;
     background-color: black;
@@ -653,7 +634,7 @@ html{
 }
 
 
-/* services page */
+/* ! services page */
 #services-second a, #services-second a:hover, #services-second a:active, #services-second a:visited { color: black; }
 
 .services-listed{

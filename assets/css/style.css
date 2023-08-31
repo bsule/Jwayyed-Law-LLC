@@ -618,6 +618,15 @@ html{
         height: auto;
     }
     /* service page */
+    .service-section img{
+        width: 90% !important;
+    }
+    .text-service{
+        width: 90% !important;
+    }
+    #main-title{
+        font-size: 30px !important;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -633,6 +642,13 @@ html{
     /* quote */
     .quote-text h3{
         font-size: 20px;
+    }
+    /* service page */
+    #main-title{
+        font-size: 25px !important;
+    }
+    #secondary-title{
+        font-size: 25px !important;
     }
 }
 

@@ -519,6 +519,9 @@ html{
         font-size: 20px;
         width: 80vh;
     }
+    .carousel-item p{
+        width: 70vh;
+    }
     .author{
         font-size: 20px;
     }
@@ -554,9 +557,22 @@ html{
     }
 }
 
-/* @media screen and (max-width: 1400px) {
-   
-} */
+@media screen and (max-width: 860px){
+    /* quote */
+    #bootstrap-carousel{
+        height: 45vh;
+    }
+    .carousel-inner{
+        height: 40vh;
+    }
+    .carousel-item h4{
+        font-size: 20px;
+        width: 70vh;
+    }
+    .carousel-item p{
+        width: 70vh;
+    }
+}
 
 @media screen and (max-width: 830px) {
     /* coverpage */
@@ -571,6 +587,40 @@ html{
     }
     .main-display h4{
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 760px){
+    /* quote */
+    #bootstrap-carousel{
+        height: 50vh;
+    }
+    .carousel-inner{
+        height: 45vh;
+    }
+    .carousel-item h4{
+        font-size: 20px;
+        width: 60vh;
+    }
+    .carousel-item p{
+        width: 70vh;
+    }
+}
+
+@media screen and (max-width: 650px){
+    /* quote */
+    #bootstrap-carousel{
+        height: 55vh;
+    }
+    .carousel-inner{
+        height: 50vh;
+    }
+    .carousel-item h4{
+        font-size: 20px;
+        width: 50vh;
+    }
+    .carousel-item p{
+        width: 40vh;
     }
 }
 
@@ -617,7 +667,19 @@ html{
         font-size: 20px;
     }
     /* quote */
-
+    #bootstrap-carousel{
+        height: 65vh;
+    }
+    .carousel-inner{
+        height: 60vh;
+    }
+    .carousel-item h4{
+        font-size: 20px;
+        width: 40vh;
+    }
+    .carousel-item p{
+        width: 40vh;
+    }
     /* service page */
     .service-section img{
         width: 90% !important;
@@ -627,6 +689,23 @@ html{
     }
     #main-title{
         font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 450px){
+    /* quote */
+    #bootstrap-carousel{
+        height: 75vh;
+    }
+    .carousel-inner{
+        height: 65vh;
+    }
+    .carousel-item h4{
+        font-size: 20px;
+        width: 35vh;
+    }
+    .carousel-item p{
+        width: 40vh;
     }
 }
 
@@ -640,14 +719,29 @@ html{
         font-size: 15px;
         margin-top: 10px;
     }
-    /* quote */
-    
     /* service page */
     #main-title{
         font-size: 25px !important;
     }
     #secondary-title{
         font-size: 25px !important;
+    }
+}
+
+@media screen and (max-width: 395px){
+    /* quote */
+    #bootstrap-carousel{
+        height: 85vh;
+    }
+    .carousel-inner{
+        height: 75vh;
+    }
+    .carousel-item h4{
+        font-size: 20px;
+        width: 32vh;
+    }
+    .carousel-item p{
+        width: 30vh;
     }
 }
 

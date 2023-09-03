@@ -85,7 +85,7 @@ html{
     margin-left: 5px;
 }
 
-/* main page */
+/* ! main page */
 #hero{
     background: url("../img/backgroundpics/jj-background.png") fixed right;
     min-height: 100vh;
@@ -119,7 +119,7 @@ html{
 
 #hero a, #hero a:hover, #hero a:active, #hero a:visited { color: white; }
 
-/* about me page */
+/* ! about me page */
 #about-me{
     background-color: #fff;
     min-height: 60vh;
@@ -187,8 +187,8 @@ html{
     width: 20%;
 }
 
-/* about me vid */
-.video-container{
+/* ! about me vid */
+/* .video-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,7 +220,7 @@ html{
     transform: scale(0);
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
     outline: none;
-    transition: all 0.2s; /* when clicked transition */
+    transition: all 0.2s;
 }
 
 .video-container.show{
@@ -234,7 +234,7 @@ html{
     transform: scale(1);
     height: 80%;
     width: auto;
-}
+} */
 
 /* awards */
 #awards{
@@ -344,8 +344,6 @@ html{
     font-size: 18px;
     margin-top: 0;
 }
-
-
 
 /* ! services page */
 #services{
@@ -493,9 +491,6 @@ html{
 
 @media screen and (max-width: 991px) {
     /* navbar */
-    #close-word-btn{
-        visibility: visible;
-    }
     #addressnavbar{
         margin-bottom: 0;
     }
@@ -517,8 +512,18 @@ html{
         text-align: left;
     }
     /* quote */
-    #btn-see-more{
-        width: 50% !important;
+    #bootstrap-carousel{
+        height: 40vh;
+    }
+    .carousel-item h4{
+        font-size: 20px;
+        width: 80vh;
+    }
+    .author{
+        font-size: 20px;
+    }
+    .author-desc{
+        font-size: 16px;
     }
     /* service page */
     .service-section{
@@ -549,12 +554,9 @@ html{
     }
 }
 
-@media screen and (max-width: 1400px) {
-    /* quote */
-    #btn-see-more{
-        width: 30%;
-    }
-}
+/* @media screen and (max-width: 1400px) {
+   
+} */
 
 @media screen and (max-width: 830px) {
     /* coverpage */
@@ -615,16 +617,7 @@ html{
         font-size: 20px;
     }
     /* quote */
-    .quote-text h3{
-        font-size: 22px;
-    }
-    .video-container .close{
-        right: 0;
-    }
-    .video-container.show video{
-        width: 90%;
-        height: auto;
-    }
+
     /* service page */
     .service-section img{
         width: 90% !important;
@@ -648,9 +641,7 @@ html{
         margin-top: 10px;
     }
     /* quote */
-    .quote-text h3{
-        font-size: 20px;
-    }
+    
     /* service page */
     #main-title{
         font-size: 25px !important;
@@ -683,12 +674,9 @@ html{
     align-items: center;
 }
 
-#free-consul-text{
-    font-weight: bold;
-}
-
-#adr, #bl, #epandp, #wills, #paandad, #trusts, #np, #contracts, #immigration, #more{
+#adr, #bl, #epandp, #wills, #paandad, #trusts, #np, #contracts, #immigration{
     padding-top: 3px;
+    margin-top: 50px;
 }
 
 .service-section{
@@ -716,14 +704,6 @@ html{
 
 #secondary-title{
     font-size: 28px;
-}
-
-.main-title{
-    text-align: center !important;
-}
-
-#paandad, #trusts, #wills, #np, #adr, #bl, #contracts, #immigration{
-    margin-top: 50px;
 }
 
 #list-immig{

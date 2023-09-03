@@ -316,7 +316,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 45vh;
+    height: 50vh;
 }
 
 .carousel-inner{
@@ -668,10 +668,10 @@ html{
     }
     /* quote */
     #bootstrap-carousel{
-        height: 65vh;
+        height: 75vh;
     }
     .carousel-inner{
-        height: 60vh;
+        height: 70vh;
     }
     .carousel-item h4{
         font-size: 20px;
@@ -695,10 +695,10 @@ html{
 @media screen and (max-width: 450px){
     /* quote */
     #bootstrap-carousel{
-        height: 75vh;
+        height: 85vh;
     }
     .carousel-inner{
-        height: 65vh;
+        height: 80vh;
     }
     .carousel-item h4{
         font-size: 20px;
@@ -731,10 +731,10 @@ html{
 @media screen and (max-width: 395px){
     /* quote */
     #bootstrap-carousel{
-        height: 85vh;
+        height: 90vh;
     }
     .carousel-inner{
-        height: 75vh;
+        height: 85vh;
     }
     .carousel-item h4{
         font-size: 20px;

@@ -321,7 +321,7 @@ html{
 
 .carousel-inner{
     width: 130vh;
-    height: 200vh;
+    height: 700px;
     display: flex;
     align-items: center;
 }
@@ -380,7 +380,14 @@ html{
 }
 
 .services-offered h5{
+    text-align: center;
     margin-bottom: 12px;
+}
+
+.services-offered a{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #free-consol-text{
@@ -593,17 +600,20 @@ html{
         height: 500px;
     }
     .carousel-item h4{
-        font-size: 18px;
+        font-size: 16px;
         width: 500px;
+        font-weight: 600;
     }
     .carousel-item p{
         width: 70vh;
     }
     .author{
         font-size: 18px;
+        font-weight: 800;
     }
     .author-desc{
         font-size: 15px;
+        font-weight: 700;
     }
 }
 

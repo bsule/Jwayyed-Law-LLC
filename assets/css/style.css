@@ -593,11 +593,17 @@ html{
         height: 500px;
     }
     .carousel-item h4{
-        font-size: 20px;
+        font-size: 18px;
         width: 500px;
     }
     .carousel-item p{
         width: 70vh;
+    }
+    .author{
+        font-size: 18px;
+    }
+    .author-desc{
+        font-size: 15px;
     }
 }
 
@@ -607,7 +613,6 @@ html{
         height: 500px;
     }
     .carousel-item h4{
-        font-size: 18px;
         width: 400px;
     }
     .carousel-item p{
@@ -658,7 +663,6 @@ html{
         height: 500px;
     }
     .carousel-item h4{
-        font-size: 18px;
         width: 350px;
     }
     .carousel-item p{
@@ -682,7 +686,6 @@ html{
         height: 600px;
     }
     .carousel-item h4{
-        font-size: 18px;
         width: 300px;
     }
     .carousel-item p{
@@ -712,10 +715,9 @@ html{
 @media screen and (max-width: 395px){
     /* quote */
     #bootstrap-carousel{
-        height: 700px;
+        height: 600px;
     }
     .carousel-item h4{
-        font-size: 18px;
         width: 270px;
     }
     .carousel-item p{

@@ -192,7 +192,7 @@ html{
     width: 20%;
 }
 
-/* awards */
+/* ! awards */
 #awards{
     min-height: 50vh;
 }
@@ -223,6 +223,7 @@ html{
     margin-top: 10px;
     font-size: 20px;
     word-wrap:unset;
+    font-weight: 700;
 }
 
 #title-ohio, #title-cali{
@@ -290,6 +291,7 @@ html{
 
 .quote-text{
     font-size: 20px;
+    font-weight: 700;
 }
 
 .author{
@@ -303,6 +305,7 @@ html{
     text-align: center;
     font-size: 18px;
     margin-top: 0;
+    font-weight: 700;
 }
 
 /* ! services page */
@@ -343,6 +346,7 @@ html{
     text-align: center;
     margin-bottom: 12px;
     font-size: 20px;
+    font-weight: 700;
 }
 
 .services-offered a{
@@ -584,18 +588,15 @@ html{
     .carousel-item h4{
         font-size: 17px;
         width: 500px;
-        font-weight: 600;
     }
     .carousel-item p{
         width: 70vh;
     }
     .author{
         font-size: 17px;
-        font-weight: 800;
     }
     .author-desc{
         font-size: 15px;
-        font-weight: 700;
     }
 }
 

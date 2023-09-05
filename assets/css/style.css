@@ -711,9 +711,13 @@ html{
 }
 
 @media screen and (max-width: 450px){
+    /* about me */
+    #border-line-recog{
+        width: 100px;
+    }
     /* quote */
     #bootstrap-carousel{
-        height: 550px !important;
+        height: 600px !important;
     }
     .carousel-inner{
         height: 500px;
@@ -741,7 +745,7 @@ html{
 @media screen and (max-width: 395px){
     /* quote */
     #bootstrap-carousel{
-        height: 600px;
+        height: 620px !important;
     }
     .carousel-item h4{
         width: 270px;

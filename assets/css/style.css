@@ -326,7 +326,7 @@ html{
 
 .carousel-inner{
     width: 130vh;
-    height: 700px;
+    height: 400px;
     display: flex;
     align-items: center;
 }
@@ -530,7 +530,7 @@ html{
     }
     /* quote */
     #bootstrap-carousel{
-        height: 450px;
+        height: 400px;
     }
     .carousel-item h4{
         font-size: 20px;
@@ -577,7 +577,7 @@ html{
 @media screen and (max-width: 860px){
     /* quote */
     #bootstrap-carousel{
-        height: 500px;
+        height: 400px !important;
     }
     .carousel-item h4{
         font-size: 20px;
@@ -605,12 +605,34 @@ html{
 }
 
 @media screen and (max-width: 760px){
+    /* text */
+    #about-me-header, #recog-acc, #title-quote, #service-h1{
+        font-size: 35px;
+    }
+    .about-page-text h3{
+        font-size: 17px;
+    }
+    #title-ohio{
+        font-size: 17px;
+    }
+    #awards-para-first{
+        font-size: 17px;
+    }
+    #title-cali{
+        font-size: 17px;
+    }
+    #awards-para-second{
+        font-size: 17px;
+    }
+    .services-offered h5{
+        font-size: 17px !important;
+    }
     /* quote */
     #bootstrap-carousel{
-        height: 500px;
+        height: 430px !important;
     }
     .carousel-item h4{
-        font-size: 16px;
+        font-size: 17px;
         width: 500px;
         font-weight: 600;
     }
@@ -618,7 +640,7 @@ html{
         width: 70vh;
     }
     .author{
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 800;
     }
     .author-desc{
@@ -659,14 +681,6 @@ html{
         top: 0;
         transform: 0;
     }
-    #title{
-        font-size: 30px;
-        font-weight: bold;
-    }
-    #under-title{
-        font-size: 15px;
-        margin-top: 10px;
-    }
 }
 
 @media screen and (max-width: 540px) {
@@ -674,13 +688,9 @@ html{
     #hero{
         background-position: 90%;
     }
-    /* about me */
-    .about-page-text h3{
-        font-size: 20px;
-    }
     /* quote */
     #bootstrap-carousel{
-        height: 500px;
+        height: 500px !important;
     }
     .carousel-item h4{
         width: 350px;
@@ -703,7 +713,10 @@ html{
 @media screen and (max-width: 450px){
     /* quote */
     #bootstrap-carousel{
-        height: 600px;
+        height: 550px !important;
+    }
+    .carousel-inner{
+        height: 500px;
     }
     .carousel-item h4{
         width: 300px;
@@ -722,13 +735,6 @@ html{
     #under-title{
         font-size: 15px;
         margin-top: 10px;
-    }
-    /* service page */
-    #main-title{
-        font-size: 25px !important;
-    }
-    #secondary-title{
-        font-size: 25px !important;
     }
 }
 

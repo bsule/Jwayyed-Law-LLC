@@ -15,6 +15,11 @@ html{
     scroll-behavior: smooth;
 }
 
+/* titles */
+#about-me-header, #recog-acc, #title-quote, #service-h1{
+    font-size: 40px;
+}
+
 /* navbar */
 .navbar{
     background-color: black !important;
@@ -153,7 +158,7 @@ html{
 }
 
 .about-page-text h3{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 32px;
     text-align: left;
@@ -316,7 +321,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 400px;
 }
 
 .carousel-inner{
@@ -332,10 +337,14 @@ html{
     margin-right: auto;
 }
 
+.quote-text{
+    font-size: 20px;
+}
+
 .author{
     text-align: center;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 0;
 }
 
@@ -382,6 +391,7 @@ html{
 .services-offered h5{
     text-align: center;
     margin-bottom: 12px;
+    font-size: 20px;
 }
 
 .services-offered a{

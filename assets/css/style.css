@@ -111,15 +111,9 @@ html{
     -o-transform: translateY(-50%);
 }
 
-#title{
-    font-size: 60px;
-    font-weight: bold;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-#under-title{
-    font-size: 20px;
+.welcome-message{
+    font-weight: 800;
+    font-size: 35px;
 }
 
 #hero a, #hero a:hover, #hero a:active, #hero a:visited { color: white; }
@@ -232,6 +226,7 @@ html{
 
 #speech-vid{
     max-height: 400px;
+    background-image: url("..\img\pic-of-speech.png");
 }
 
 #awards-para-first, #awards-para-second{
@@ -334,8 +329,8 @@ html{
 }
 
 #free-consol-text{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 12px;
 }
 
 .services-offered{
@@ -356,7 +351,7 @@ html{
 }
 
 #last-service{
-    padding-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 #services a, #services a:hover, #services a:active, #services a:visited { color: black; }
@@ -471,9 +466,6 @@ html{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .main-display h1{
-        font-size: 60px;
-    }
     .main-display h4{
         font-size: 25px;
     }
@@ -510,6 +502,13 @@ html{
     }
     .text-service{
         width: 500px !important;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    /* coverpage */
+    .main-display h4{
+        font-size: 30px;
     }
 }
 
@@ -622,7 +621,7 @@ html{
         background-position: 85% 80%;
     }
     .main-display{
-        margin: 200px;
+        margin: 180px;
         margin-right: auto;
         margin-left: auto;
         width: 350px;
@@ -656,9 +655,6 @@ html{
     .text-service{
         width: 90% !important;
     }
-    #main-title{
-        font-size: 30px !important;
-    }
 }
 
 @media screen and (max-width: 450px){
@@ -678,18 +674,6 @@ html{
     }
     .carousel-item p{
         width: 40vh;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    /* cover page */
-    #title{
-        font-size: 30px;
-        font-weight: bold;
-    }
-    #under-title{
-        font-size: 15px;
-        margin-top: 10px;
     }
 }
 
@@ -746,6 +730,11 @@ html{
     height: fit-content;
 }
 
+.service-section p{
+    font-weight: 700;
+    font-size: 17px;
+}
+
 .text-service{
     display: flex;
     flex-direction: column;
@@ -753,12 +742,12 @@ html{
 }
 
 #main-title{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
 }
 
 #secondary-title{
-    font-size: 28px;
+    font-size: 30px;
 }
 
 #list-immig{

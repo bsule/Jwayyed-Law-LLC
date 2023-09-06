@@ -5,6 +5,13 @@
     <title>Jwayyed Law LLC</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welcome to Jwayyed Law LLC – your trusted Ohio resource for comprehensive legal services. I'm dedicated to delivering personalized aid to clients in Columbus, Cleveland, Cincinnati, Lorain, Akron, Dayton, Canton, and Youngstown.
+    Immigration Expertise: Need to navigate complex immigration? I provide tailored assistance for visas, green cards, citizenship, and more.
+    Estate Planning: Safeguard your legacy through meticulous estate planning. Personalized strategies secure assets and meet loved ones' needs.
+    Empathetic Probate: During tough times, my compassionate approach ensures a smooth process for your family, from estate administration to will contests.
+    Business Law: Enhance your business with expert legal advice. From startups to established companies, I offer comprehensive services, including entity formation and contract review.
+    Tailored Solutions, Local Focus: Serving Cleveland to Cincinnati, I provide customized legal answers. As your dedicated attorney, your success and peace of mind are my priorities.
+    Consultation Booking: Ready to address your needs? Contact me to collaborate through the legal landscape and achieve your goals.">
 
     <!--  bootstrap and aos  -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -71,9 +78,9 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="main-display">
-                        <h4 class="welcome-message">Welcome to Jwayyed Law LLC,</h4>
-                        <h4 class="welcome-message">your trusted Ohio resource</h4>
-                        <h4 class="welcome-message">for comprehensive legal services.</h4>
+                        <h4 class="welcome-message" data-aos="fade-in" data-aos-delay="500" data-aos-duration="500">Welcome to Jwayyed Law LLC,</h4>
+                        <h4 class="welcome-message" data-aos="fade-in" data-aos-delay="600" data-aos-duration="500">your trusted Ohio resource</h4>
+                        <h4 class="welcome-message" data-aos="fade-in" data-aos-delay="700" data-aos-duration="500">for comprehensive legal services.</h4>
                     </div>
                 </div>
             </div>
@@ -209,8 +216,8 @@
         <div class="container">
             <div class="row">
                 <div class="contact-text">
-                    <img src="assets/img/logos/logo-long.png" width="250" height="44" id="logo-contact">
-                    <p class="titles-contact">Email:</p>
+                    <img src="assets/img/logos/logo-long.png" width="312" height="55" id="logo-contact">
+                    <p class="titles-contact" id="email-header">Email:</p>
                     <p id="email">Jwayyedlawllc@outlook.com</p>
                     <p class="titles-contact">Phone Number:</p>
                     <a href="tel: 614-408-9066"><p id="phonenumber-contact">(614) 408-9066</p></a>
@@ -226,9 +233,9 @@
                         <a href="https://www.linkedin.com/in/jwayyed-jwayyed-b356b921b/" target="_blank" class="icon icon--linkedin">
                             <i class="ri-linkedin-line"></i>
                         </a>
-                        <a href="#" class="icon icon--tiktok">
+                        <!-- <a href="#" class="icon icon--tiktok">
                             <i class="fa-brands fa-tiktok"></i>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -241,7 +248,10 @@
     <script src="assets/js/aos.js"></script>
     <script src="https://kit.fontawesome.com/8c2adfc9c1.js" crossorigin="anonymous"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            once: true,
+            offset: 10,
+        });
     </script>
 </body>
 </html>

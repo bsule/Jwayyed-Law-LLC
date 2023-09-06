@@ -13,6 +13,7 @@
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 /* titles */
@@ -227,7 +228,6 @@ html{
 #speech-vid{
     max-height: 400px;
     background-image: url("../img/pic-of-speech.png");
-    
 }
 
 #awards-para-first, #awards-para-second{
@@ -308,6 +308,7 @@ html{
 #services{
     background-color: white;
     min-height: 50vh;
+    padding-top: 50px;
 }
 
 .service-title{
@@ -317,7 +318,6 @@ html{
 }
 
 #service-h1{
-    padding-top: 50px;
     padding-bottom: 20px;
     font-weight: bold;
 }
@@ -368,12 +368,15 @@ html{
 
 #logo-contact{
     margin-top: 0;
-    margin-bottom: 40px;
 }
 
 .contact-text{
     text-align: center;
     margin-top: 70px;
+}
+
+#email-header{
+    margin-top: 40px;
 }
 
 .titles-contact{
@@ -696,8 +699,8 @@ html{
 #services-second a, #services-second a:hover, #services-second a:active, #services-second a:visited { color: black; }
 
 .services-listed{
-    margin-top: 100px;
     text-align: left;
+    position: relative;
 }
 
 .services-listed h2{
@@ -714,8 +717,11 @@ html{
     align-items: center;
 }
 
-#adr, #bl, #epandp, #wills, #paandad, #trusts, #np, #contracts, #immigration{
-    padding-top: 3px;
+#epandp{
+    margin-top: 100px;
+}
+
+#adr, #bl, #wills, #paandad, #trusts, #np, #contracts, #immigration{
     margin-top: 50px;
 }
 

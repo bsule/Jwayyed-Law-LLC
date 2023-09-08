@@ -13,7 +13,7 @@
 
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 80px;
+    scroll-padding-top: 65px;
 }
 
 /* titles */
@@ -352,7 +352,7 @@ html{
 }
 
 #last-service{
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 #services a, #services a:hover, #services a:active, #services a:visited { color: black; }
@@ -755,10 +755,6 @@ html{
 
 #secondary-title{
     font-size: 30px;
-}
-
-#list-immig{
-    text-align: center;
 }
 
 #adr{

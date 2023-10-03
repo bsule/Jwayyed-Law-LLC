@@ -534,7 +534,7 @@ html{
 @media screen and (max-width: 860px){
     /* quote */
     #bootstrap-carousel{
-        height: 400px !important;
+        height: 450px !important;
     }
     .carousel-item h4{
         font-size: 20px;
@@ -606,7 +606,7 @@ html{
 @media screen and (max-width: 650px){
     /* quote */
     #bootstrap-carousel{
-        height: 500px;
+        height: 500px !important;
     }
     .carousel-item h4{
         width: 400px;

@@ -8,6 +8,4 @@
 
 Official Website of Jwayyed Law LLC, based in Columbus, Ohio. Designed to display the various services offered and methods of contact. Serves as a professional online presence for Jwayyed Jwayyed and offers information about his legal practice, services, and expertise. 
 
-Full launch is coming soon.
-
 Created by [Bilal Suleiman](https://www.github.com/bsule), [Nadir Esmail](https://www.github.com/EsmailNadir), [Mazin Esmail](https://www.github.com/EsmailMazin)

@@ -443,6 +443,10 @@ html{
 	outline-color: red;
 }
 
+.copyright-text{
+    text-align: center;
+}
+
 @keyframes shake {
 	10% {
 		transform: rotate(15deg);

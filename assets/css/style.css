@@ -656,6 +656,9 @@ html{
     .carousel-item p{
         width: 40vh;
     }
+    .carousel-inner{
+        height: 500px;
+    }
     /* service page */
     .service-section img{
         width: 90% !important;

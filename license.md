@@ -1,3 +1,6 @@
+Notice: This website is not to be considered legal advice. Consult with an attorney to receive legal advice. 
+© Copyright 2023 Jwayyed Law, LLC. All Rights Reserved.
+
 
 Licenses
 

@@ -443,6 +443,11 @@ html{
 	outline-color: red;
 }
 
+.icon--facebook:hover {
+    background-color:#0077b5 ;
+    outline-color:#0077b5 ;
+}
+
 .copyright-text{
     text-align: center;
 }

@@ -79,16 +79,9 @@ html{
 
 .offcanvas-body a, .offcanvas-body a:hover, .offcanvas-body a:active, .offcanvas-body a:visited { color: white; }
 
-#linkedin-nav, #tiktok-nav{
-    margin-top: 40px;
-}
-
-#linkedin-nav{
-    margin-right: 5px;
-}
-
-#tiktok-nav{
-    margin-left: 5px;
+#linkedin-mobile{
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /* ! main page */
@@ -444,8 +437,8 @@ html{
 }
 
 .icon--facebook:hover {
-    background-color:#0077b5 ;
-    outline-color:#0077b5 ;
+    background-color:#3366c4 ;
+    outline-color:#3366c4 ;
 }
 
 .copyright-text{

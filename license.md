@@ -2,7 +2,7 @@ Notice: This website is not to be considered legal advice. Consult with an attor
 © Copyright 2023 Jwayyed Law, LLC. All Rights Reserved.
 
 
-Licenses
+Licenses for pictures
 
 wills pic
 https://hanoi.eregulations.org/media/Img_EntId_633924330477031250Law%20and%20consultancy%20firm%201.jpg

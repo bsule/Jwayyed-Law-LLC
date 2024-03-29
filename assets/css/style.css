@@ -517,9 +517,6 @@ html{
         width: 500px !important;
     }
     /* contact */
-    .contact-text{
-        width: 100%;
-    }
     #contacts-bottom{
         display: flex;
         flex-direction: column;
